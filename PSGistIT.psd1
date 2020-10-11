@@ -21,7 +21,9 @@
     Copyright          = 'c 2020 All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description        = ''
+    Description        = @'
+Create Github gists of files using one single command, Export-Gist
+'@
 
     # Functions to export from this module
     FunctionsToExport  = @('Export-Gist')
@@ -45,13 +47,13 @@
             Category     = ""
 
             # Keyword tags to help users find this module via navigations and search.
-            Tags         = @()
+            Tags         = @('PowerShell', 'Gist')
 
             # The web address of an icon which can be used in galleries to represent this module
             #IconUri = "http://pesterbdd.com/images/Pester.png"
 
             # The web address of this module's project or support homepage.
-            ProjectUri   = ""
+            ProjectUri   = "https://github.com/dfinke/PSGistIT"
 
             # The web address of this module's license. Points to a page that's embeddable and linkable.
             LicenseUri   = ""
